@@ -4,15 +4,15 @@ on:
   workflow_dispatch:
 
 env:
-  RESOURCE_GROUP: "RG-Lab3"
+  RESOURCE_GROUP: "komo-RG-Lab3"
   LOCATION: "westeurope"
   CONTAINERAPPS_ENVIRONMENT: "environment-lab-3"
   LOG_ANALYTICS_NAME: "komo-workspace-lab-3"
-  ACR_NAME: "acrlab001"
+  ACR_NAME: "acrlabkomo"
   ##################################################################################################################################################################################
   # Nous sommes dans un Workshop !                                                                                                                                                 #
   # Dans les bonnes pratiques, toutes la informations liées à la base de données sont à mettre dans un service pour stocker les secrets (ex: service secrets GitHub, KeyVault, ...)#
-  DB_HOST_NAME: "DB-lab-3-001"                                                                                                                                                     #
+  DB_HOST_NAME: "DB-lab-3-komo"                                                                                                                                                     #
   DB_NAME: "rugby_api" # ne pas modifier                                                                                                                                           #
   DB_ADMIN: "channa"                                                                                                                                                               #
   DB_ADMIN_PASSWORD: Password123$                                                                                                                                                  #
